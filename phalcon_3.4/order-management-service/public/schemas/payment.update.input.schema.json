@@ -1,0 +1,31 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "service/schemas/payment.update.input.schema.json",
+	"title": "Payment",
+	"description": "This description is related to Payment",
+	"type": "object",
+	"properties":
+	{
+		"paymentType":
+		{
+			"description": "The description is related to attributes of payment type",
+			"type": "string"
+		},
+		"paymentMethod":
+		{
+			"description": "The description is related to attributes of payment method",
+			"type": "string"
+		},
+		"paymentAmount":
+		{
+		  "description": "The description is related to attributes of payment amount",
+		  "type":"string"
+		},
+		"orderId":
+		{
+		  "description": "The description is related to attributes of order details",
+		  "type": "integer"  
+		} 
+	},
+	"additionalProperties": false
+}

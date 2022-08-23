@@ -1,0 +1,22 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "service/schemas/entity1.create.input.schema.json",
+	"title": "Entity1",
+	"description": "This description is related to Entity1",
+	"type": "object",
+	"properties":
+	{
+		"entityName":
+		{
+			"description": "The description is related to name of the entity",
+			"type": "string"
+		},
+		"entityAttr":
+		{
+			"description": "The description is related to attributes of entity",
+			"type": "string"
+		}                                                                                
+	},
+	"required": ["entityName", "entityAttr"],
+	"additionalProperties": false
+}

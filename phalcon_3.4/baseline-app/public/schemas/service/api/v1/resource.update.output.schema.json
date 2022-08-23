@@ -1,0 +1,30 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "/schemas/service/api/v1/resource.update.output.schema.json",
+	"title": "Resource new resource output",
+	"description": "Returns a newly created resource",
+	"type": "object",
+	"properties": 
+	{
+		"return_code": 
+		{
+			"description": "Return code to denote API call status. 0 - Success, 1 - Warning",
+			"type": "integer"
+		},
+		"return_status":
+		{
+			"description": "The description is related to the return code",
+			"type": "string"
+		},
+		"resource":
+		{ 
+			"$ref": "resource.output.schema.json" 
+		}
+	},
+	"required":
+	[
+		"return_code",
+		"return_status"
+	],
+	"additionalProperties": false
+}

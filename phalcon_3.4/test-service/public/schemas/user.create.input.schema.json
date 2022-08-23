@@ -1,0 +1,72 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "test-service/schemas/user.create.input.schema.json",
+	"title": "User",
+	"description": "This description is related to User",
+	"type": "object",
+	"properties":
+	{
+	 "userName":
+		{
+			"description": "The description is related to name of the user",
+			"type": "string"
+		},
+		"userPass":
+		{
+			"description": "The description is related to attributes of password",
+			"type": "string"
+		},
+		"profileName":
+		{
+			"description": "The description is related to attributes of profile name",
+			"type": "string"
+		},
+		"firstName":
+		{
+			"description": "The description is related to attributes of first name",
+			"type": "string"
+		},
+		"lastName":
+		{
+			"description": "The description is related to attributes of last name",
+			"type": "string"
+		},
+		"emailId":
+		{
+			"description": "The description is related to attributes of email id",
+			"type": "string"
+		},
+		"gender":
+		{
+			"description": "The description is related to attributes of gender",
+			"type": "string"
+		},
+		"birthDate":
+		{
+			"description": "The description is related to attributes of birth date",
+			"type": "date"
+		},
+		"joiningDate":
+		{
+			"description": "The description is related to attributes of joining date",
+			"type": "timestamp"
+		},
+		"userStatus":
+		{
+			"description": "The description is related to attributes of status",
+			"type": "string"
+		},
+		"createdDate":
+		{
+			"description": "The description is related to attributes of created date",
+			"type": "timestamp"
+		},
+		"updatedDate":
+		{
+			"description": "The description is related to attributes of updated date",
+			"type": "timestamp"
+		}                                                                                 
+	},
+	"required": ["userName", "firstName", "lastName"],
+	"additionalProperties": false
+}

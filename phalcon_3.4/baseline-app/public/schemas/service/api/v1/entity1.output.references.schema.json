@@ -1,0 +1,15 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "/schemas/service/api/v1/entity1.retrieve.output.references.schema.json",
+	"title": "entity1",
+	"description": "This description is related to entity1",
+	"type": "object",
+	"properties":
+	{
+		"entity_parent":
+		{
+			"$ref": "resource.output.schema.json"
+		}
+	},
+	"additionalProperties": false
+}

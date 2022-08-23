@@ -1,0 +1,36 @@
+{
+	"$schema": "http://json-schema.org/draft-07/schema#",
+	"$id": "/schemas/service/api/v1/resource.output.schema.json",
+	"title": "Resource",
+	"description": "Standard representation of a resource",
+	"type": "object",
+	"properties": 
+	{
+		"id": 
+		{
+			"description": "The ID of the resource",
+			"type": "string"
+		},
+		"link": 
+		{
+			"description": "URI of the resource",
+			"type": "string"
+		},
+		"attributes": 
+		{
+			"description": "Attributes of the resource",
+			"type": "object"
+		},
+		"references": 
+		{
+			"description": "Other resources referenced",
+			"type": "object"
+		}
+	},
+	"required": 
+	[
+		"id",
+		"link"
+	],
+	"additionalProperties": false
+}
