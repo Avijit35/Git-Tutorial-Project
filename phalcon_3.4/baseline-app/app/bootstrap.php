@@ -16,7 +16,7 @@ try {
      * The FactoryDefault Dependency Injector automatically registers the services that
      * provide a full stack framework. These default services can be overidden with custom ones.
      */
-    $di = new FactoryDefault();
+    $di = new FactoryDefaultNew();
 
     /**
      * Include environment specific services
@@ -39,7 +39,7 @@ try {
     $application = new Application($di);
 
     /**
-     * Register application modules
+     * Register application modules sjdkfjs;
      */
     $application->registerModules([
         'api' => ['className' => 'App\Modules\Api\Module']
