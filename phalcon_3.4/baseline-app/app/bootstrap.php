@@ -3,6 +3,8 @@
 use Phalcon\Di\FactoryDefault;
 use Phalcon\Mvc\Application;
 
+// This a change
+
 error_reporting(E_ALL);
 
 define('BASE_PATH', dirname(__DIR__));
