@@ -45,7 +45,7 @@ class Entity1 extends \Phalcon\Mvc\Model
      *
      * @var integer
      */
-    public $entity_parent;
+    public $entity_parent_test2;
 
     /**
      *
