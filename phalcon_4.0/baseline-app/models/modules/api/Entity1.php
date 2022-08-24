@@ -67,7 +67,6 @@ class Entity1 extends \Phalcon\Mvc\Model
 
     /**
      * Initialize method for model.
-     * Changed Model.
      */
     public function initialize()
     {
